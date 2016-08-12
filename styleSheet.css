@@ -1,0 +1,551 @@
+@charset "UTF-8";
+
+body {
+	height:auto;	
+	margin:0px;
+	background-color:black;
+}
+
+#container {
+	width:1200px;
+	height:auto;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#navBanner {
+	position:relative;
+	margin-bottom:-5px;
+}
+
+#banner {
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#logo {
+	position:absolute;
+	height:auto;
+	width: 45%;
+	top:0px;
+	left:-10px;
+	margin:0px;
+}
+
+#subTitle {
+	position: absolute;
+	top: 62%;
+	left: 1.5%;
+	width: 58%;
+	height:auto;
+}
+
+.button {
+	float:left;
+	width:150px;
+	text-align:center;
+	margin:0px;
+	height:100px;	
+}
+
+.blank {
+	height:60px;
+	width:600px;
+	float:left;
+	background-color:black;	
+}
+
+#menu a {	
+	display:block;
+	height:40px;
+	margin-top:0px;
+	text-decoration:none;
+	color:white;
+	padding-top:20px;
+	background-color:black;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:17px;
+}
+
+#menu a:hover {
+	background-color:white;
+	color:black;
+}
+
+#introText {
+	width:46%;
+	padding:2%;	
+	float:left;
+}
+
+#demoReel {
+	float:left;
+	width:46%;
+	padding:2%;
+	height:auto;	
+}
+
+#contact {
+	font-size:20px;
+	font-style:italic;	
+}
+
+#description {
+	float: left;
+	width: 46%;
+	padding: 2%;	
+	margin:0px;
+}
+
+#resume {
+	width: 46%;
+	padding: 2%;	
+	margin:0px;
+	float:left;
+}
+
+#resume p {
+	text-align:justify;	
+}
+
+#myPic {
+	float:right;
+	width: 40%;
+	padding: 5%;
+	height:auto;	
+	padding-top: 3%;
+	padding-bottom:2%;
+}
+
+#aboutText1 {
+	padding-top: 0%;
+	text-align: justify;
+}
+
+#longPic {
+	width:100%;
+	height:auto;
+	padding:0%;
+	margin-bottom:1%;	
+}
+
+h1 {
+	width:100%;
+	text-align:center;
+	padding-top: 0px;
+	clear:left;	
+	margin-bottom:0px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	margin-top:0px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+p {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+h5 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:400;
+	font-size:16px;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:640px;
+}
+
+.downloadPDF {
+	width:100%;
+	text-align:center;
+	padding-top:5%;	
+}
+
+#videoContainer {
+	padding:5px;
+	padding-left:1.3%;
+	width: 95%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15px;
+}
+
+.videoThumb {
+	width:30%;
+	text-align:center;
+	padding:0px;
+	margin:1.5%;
+	margin-bottom: 0px;	
+	margin-top: 0px;
+	float:left;
+}
+
+.videoDesc {
+	margin-top:0px;	
+}
+
+#vid1 {
+	width: 320px;
+	height: 180px;
+	background: url(Pics/Remember.jpg) top left no-repeat;
+	background-size: 320px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#vid1:hover {
+	background-image:url(Gifs/Remember.gif);
+}
+
+#vid2 {
+	width: 320px;
+	height: 180px;
+	background: url(Pics/Night.jpg) top left no-repeat;
+	background-size: 320px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#vid2:hover {
+	background-image:url(Gifs/Night.gif);
+}
+
+#vid3 {
+	width: 320px;
+	height: 180px;
+	background: url(Pics/Pusher.jpg) top left no-repeat;
+	background-size: 320px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#vid3:hover {
+	background-image:url(Gifs/Pusher.gif);
+}
+
+#vid4 {
+	width: 320px;
+	height: 180px;
+	background: url(Pics/Trap.jpg) top left no-repeat;
+	background-size: 320px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#vid4:hover {
+	background-image:url(Gifs/Trap.gif);
+}
+
+#vid5 {
+	width: 320px;
+	height: 180px;
+	background: url(Pics/Visions.jpg) top left no-repeat;
+	background-size: 320px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#vid5:hover {
+	background-image:url(Gifs/Visions.gif);
+}
+
+#backButton {
+	padding-top:130px;
+	float:left;
+	max-width:10%;
+	height:auto;
+	overflow:hidden;
+	position:relative;
+}
+
+#videoPlayer {
+	float: left;
+	width: 80%;
+	text-align: center;
+	left: 100px;
+}
+
+iframe {
+	border:none;
+	margin-top:10px;
+}
+
+#nextButton {
+	padding-top:130px;
+	max-width:10%;
+	height:auto;
+	float:right;
+	overflow:hidden;	
+}
+
+#forms {
+	float:right;
+	width:30%;
+	margin-right:0%;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#contactPic {
+	width:30%;
+	display:inline-block;
+	padding-top:20px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#contactPic img {
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#contactInfo {
+	float:left;
+	text-align:right;
+	width:30%;
+	margin-left:0%;
+}
+
+.clearFix {
+	clear:both;	
+}
+
+
+@media screen and (max-width:1200px) and (min-width:901px){
+
+#container {
+	width: 900px;	
+}
+
+#banner {
+	width: 900px;
+	height: 225px;	
+}
+
+#logo {
+	width: 40%;
+	height: auto;
+	top: 3.5%;
+	left: 0%;
+}
+
+.blank {
+	width: 300px;	
+}
+
+#videoContainer {
+	padding-left:4%;
+}	
+
+.videoThumb {
+	width: 45%;
+	margin:1.5%;
+	margin-bottom: 0px;	
+	margin-top: 0px;
+}
+
+}
+
+@media screen and (max-width:900px) and (min-width: 601px){
+
+#container {
+	width:100%;	
+}
+
+#banner {
+	width:100%;
+	height:auto;
+}
+
+#logo {
+	width:40%;
+	height:auto;
+	top: 3.5%;
+	left: 0%;
+}
+
+.button {
+	width:25%;
+}
+
+#menu a {
+	font-size:14px;	
+}
+
+.blank {
+	width: 0px;	
+}
+
+#demoReel {
+	width:96%;	
+}
+
+#introText {
+	width: 96%;	
+}
+
+#description {
+	width: 96%;
+}
+
+#resume {
+	margin-top: -30px;
+	width: 96%;
+}
+
+#videoContainer {
+	width:100%;
+	padding:0%;
+	align-content:center;
+}	
+
+.videoThumb {
+	margin-right:auto;
+	margin-left:auto;
+	width:320px;
+	float:none;
+}
+
+iframe {
+	width:480px;
+	height:270px;	
+}
+
+#contactInfo span{
+	font-size:14px;	
+}
+
+h5 {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:480px;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+	
+#container {
+	width:100%;	
+}
+
+#banner {
+	width:100%;
+	height:auto;
+}
+
+#logo {
+	width:40%;
+	height:auto;
+	top: 3.5%;
+	left: 0%;
+}
+
+.button {
+	width:25%;
+}
+
+#menu a {
+	font-size:14px;	
+}
+
+.blank {
+	width: 0px;	
+}
+
+#demoReel {
+	width:96%;	
+}
+
+#introText {
+	width: 96%;	
+}
+
+#description {
+	width: 96%;
+}
+
+#resume {
+	margin-top: -30px;
+	width: 96%;
+}
+
+#videoContainer {
+	width:100%;
+	padding:0%;
+	align-content:center;
+}	
+
+.videoThumb {
+	margin-right:auto;
+	margin-left:auto;
+	width:320px;
+	float:none;
+}
+	
+#nextButton {
+	display:none;	
+}
+	
+#backButton {
+	display:none;	
+}
+	
+iframe {
+	width:320px;
+	height:180px;	
+}
+	
+#videoPlayer {
+	width:100%;	
+}
+
+#contactInfo {
+	float:none;
+	width:90%;
+	margin:5%;
+	text-align:center;
+	margin-bottom:0%;	
+}
+
+#contactPic {
+	width:90%;
+	margin:5%;	
+	margin-top:0%;
+	margin-bottom:0%;
+}
+
+#forms {
+	width:90%;
+	margin:5%;
+	margin-bottom:0%;
+	margin-top:0%;	
+}
+
+h5 {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:320px;	
+}
+
+}
